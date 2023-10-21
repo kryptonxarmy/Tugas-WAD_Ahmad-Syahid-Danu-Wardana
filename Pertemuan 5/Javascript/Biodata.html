@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      const diklik = () => {
+        window.location.href = "https://kryptonxarmy.github.io/";
+      };
+    </script>
+    <style>
+      body {
+        background-color: white;
+        height: 100vh;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p-5 flex flex-col gap-3 justify-center items-center h-screen relative">
+      <h1 class="text-3xl font-bold underline">Apa yang dapat dilakukan dengan Javascript?</h1>
+      <p class="text-center">Klik tombol berikut untuk merubah konten.</p>
+      <button class="btn border-2 border-black p-3 rounded-xl w-[50vw] font-bold" type="button" onclick="diklik()">Click Me</button>
+    </div>
+  </body>
+</html>
